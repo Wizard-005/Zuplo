@@ -17,3 +17,70 @@
     border: 1px solid white;
     border-radius: 10px;
 } */
+
+body {
+    overflow-x: hidden;
+}
+
+
+.pipe {
+    position: relative;
+    z-index: 1;
+}
+
+.pipe img {
+    position: absolute;
+    top: 350px;
+    left: -300px;
+    right: 48px;
+    bottom: 0;
+    width: 30%; /* You can adjust the percentage or use a specific value */
+}
+
+.pipe-2{
+    position: relative;
+    z-index: 1;
+}
+
+.pipe-2 img {
+    position: absolute;
+    top: 900px;
+    left: 1400px;
+    right: 0px;
+    bottom: 0;
+    width: 40%; /* You can adjust the percentage or use a specific value */
+}
+
+.pipe-3{
+    position: relative;
+    z-index: 1;
+}
+
+.pipe-3 img {
+    position: absolute;
+    top: -250px;
+    left: -400px;
+    right: 0px;
+    bottom: 20px;
+    width: 40%; /* You can adjust the percentage or use a specific value */
+}
+
+.color{
+    background: linear-gradient(to bottom, black 50%, gray 50%);
+    border: 1px solid slategray; /* Add a border */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    padding: 10px; /* Add padding for spacing inside the li element */
+    width: 100px; /* Set a width for the li element */
+    text-align: center; /* Center the content */
+  }
+
+.round{
+    font-size: 10px;
+}
+
+.white-box{
+    width: 600px;
+    height: 350px;
+    position: relative;
+    top: 70px;
+}
