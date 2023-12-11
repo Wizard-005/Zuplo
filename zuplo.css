@@ -78,9 +78,28 @@ body {
     font-size: 10px;
 }
 
-.white-box{
+.search-box{
     width: 600px;
     height: 350px;
     position: relative;
     top: 70px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .pipe img {
+        top: 350px;
+        left: -300px;
+    }
+
+    .pipe-2 img {
+        top: 900px;
+        left: 1400px;
+    }
+
+    .pipe-3 img {
+        top: -250px;
+        left: -400px;
+    }
 }
