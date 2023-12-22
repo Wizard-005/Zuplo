@@ -30,8 +30,8 @@ body {
 
 .pipe img {
     position: absolute;
-    top: 350px;
-    left: -300px;
+    top: 250px;
+    left: -200px;
     right: 48px;
     bottom: 0;
     width: 30%; /* You can adjust the percentage or use a specific value */
@@ -44,8 +44,8 @@ body {
 
 .pipe-2 img {
     position: absolute;
-    top: 900px;
-    left: 1400px;
+    top: 700px;
+    left: 940px;
     right: 0px;
     bottom: 0;
     width: 40%; /* You can adjust the percentage or use a specific value */
@@ -58,8 +58,8 @@ body {
 
 .pipe-3 img {
     position: absolute;
-    top: -250px;
-    left: -400px;
+    top: -200px;
+    left: -280px;
     right: 0px;
     bottom: 20px;
     width: 40%; /* You can adjust the percentage or use a specific value */
@@ -78,16 +78,16 @@ body {
     font-size: 10px;
 }
 
-.search-box{
-    width: 600px;
-    height: 350px;
+/* .search-box{
+    width: 500px;
+    height: 250px;
     position: relative;
-    top: 70px;
-}
+    top: -20px;
+} */
 
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .pipe img {
         top: 350px;
         left: -300px;
@@ -102,4 +102,4 @@ body {
         top: -250px;
         left: -400px;
     }
-}
+} */
