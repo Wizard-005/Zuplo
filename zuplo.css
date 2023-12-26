@@ -78,4 +78,16 @@ body {
         /* margin-bottom: 10px; Adjust as needed
     } */
 
+/* Add your existing styles here */
+
+/* Responsive styles */
+@media screen and (max-width: 991px) {
+    .lg\\:flex {
+        display: none !important;
+    }
+
+    .lg\\:hidden {
+        display: flex !important;
+    }
+}
 
