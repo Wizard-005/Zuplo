@@ -59,6 +59,10 @@ body {
     font-size: 10px;
 }
 
+#menuBtn img {
+    filter: invert(100%);
+}
+
 /* Default styles for larger screens */
 /* ul {
     display: flex;
