@@ -11,9 +11,9 @@ body {
 
 .pipe img {
     position: absolute;
-    top: 250px;
+    top: 230px;
     left: -200px;
-    right: 48px;
+    /* right: 40px; */
     bottom: 0;
     width: 30%; /* You can adjust the percentage or use a specific value */
 }
@@ -64,25 +64,24 @@ body {
 }
 
 /* Default styles for larger screens */
-/* ul {
-    display: flex;
-    gap: 10px;
-    justify-content: around;
-}
-
-/* Responsive styles for screens below 1156px */
-/* @media (max-width: 1156px) {
-    ul {
-        flex-wrap: wrap;
-        justify-content: center;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+    gap: 15px;
+  }
+  
+  /* Media query for screens between 991px and 768px */
+  @media (max-width: 991px) {
+    .edit {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for screens between 991px and 768px */
     }
-
-    li {
-        width: 32%; /* Set the width for 3 columns */
-        /* margin-bottom: 10px; Adjust as needed
-    } */
-
-/* Add your existing styles here */
+  }
+  
+  @media (max-width: 768px) {
+    .edit {
+      grid-template-columns: 1fr;
+    }
+  }
 
 /* Responsive styles */
 @media screen and (max-width: 991px) {
