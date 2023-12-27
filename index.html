@@ -29,7 +29,7 @@
     <header class="bg-stone-950 p-10 px-20 fixed z-10 top-0 w-full border-b border-black">
         <nav class="text-white flex justify-between ">
             <div>
-                <img src="assets/asset 51.svg" alt="logo" class="w-48">
+                <img src="assets/asset 51.svg" alt="logo" class="xl:w-48 lg:w-44 md:40 sm:36">
             </div>
             <div class="lg:hidden">
                 <button id="menuBtn" class="text-2xl">
@@ -275,12 +275,10 @@
     </section>
 </section>
 
-        
-
         <section class="text-white lg:m-24 md:m-20 sm:m-16">
             <h1 class="text-5xl">Benefits</h1>
             <ul class="flex justify-around text-2xl py-10"><li>Beautiful APIs</li><li>Fast APIs</li><li>APIs, Faster</li></ul>
-            <div class="grid grid-cols-3 gap-5 edit">
+            <div class="grid grid-cols-3 gap-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div class="col-span-1"><div class="bg-white text-black border rounded-2xl p-8"> <div class="flex justify-between"><h1 class="text-4xl">OpenAPI First</h1><img src="assets/OpenApi.png" alt="" class="w-18 h-12 mb-5"></div><p class="pt-10 text-2xl">Zuplo is built on OpenAPI, the industry standard for API design. Leverage the power of OpenAPI to design, document, and test your APIs.</p></div></div>
                 <div class="col-span-1"><div class="bg-white text-black border rounded-2xl p-4"><div class="flex justify-between"><h1 class="text-4xl">Minimal latency worldwide</h1><img src="assets/minimal latency.png" alt="" class="w-18 h-12 mb-5"></div><p class="pt-10 text-2xl">Zuplo is Edge-first, hosted near all your users globally at over 200 data-centers around the world.</p></div></div>
                 <div class="col-span-1"><div class="bg-white text-black border rounded-2xl p-4"><div class="flex justify-between"><h1 class="text-4xl">Your Superpowers, Unleashed</h1><img src="assets/Your.png" alt="" class="w-18 h-12 mb-5"></div><p class="pt-10 text-2xl">Programming your API Gateway is easier than ever. With Zuplo you can extend the gateway using code- your superpower. Don’t overpay for a gateway that does a bunch you don’t need.</p></div></div>
@@ -354,8 +352,8 @@
         </section>
 
         <footer class=" mt-40 mb-20">
-            <div class="text-white flex justify-around">
-                <div>
+            <div class="text-white flex justify-around reso">
+                <div class="dir">
                     <ul>
                         <li> <img src="assets/asset 51.svg" alt="logo" class="w-48"></li>
                     </ul>
@@ -365,6 +363,7 @@
                         <li class="border-4 slate-50 rounded-xl p-4 w-72">Your Email</li>
                     </ul>
                 </div>
+                
                 
                 <ul class="text-xl space-y-6 ">
                     <li class="text-pink-600"">FEATURES</li>
@@ -408,21 +407,28 @@
         </footer>
 
         <sub-footer>
-            <div class="text-white mx-4 flex justify-evenly pb-10">
-                <ul class="text-base"><li>© 2023 zuplo. All right reserved.</li></ul>
+            <div class="text-white mx-4 flex justify-around pb-8 foot">
+                <div class="rights">
+                    <ul class="text-base"><li>© 2023 zuplo. All right reserved.</li></ul>
+                </div>
+                
+                <div class="policy">
+                    <ul class="flex justify-center gap-5 text-base">
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Trust & Compliance</li>
+                    </ul>
+                </div>
 
-                <ul class="flex gap-14 text-base">
-                    <li>Privacy Policy</li>
-                    <li>Terms of Service</li>
-                    <li>Trust & Compliance</li>
-                </ul>
+                <div class="socials">
+                    <ul class="flex gap-10">
+                        <li class="filter invert"><img src="assets/asset 32.svg" alt=""></li>
+                        <li><img src="assets/asset 31.svg" alt=""></li>
+                        <li class="filter invert"><img src="assets/asset 32.svg" alt=""></li>
+                        <li><img src="assets/asset 31.svg" alt=""></li>
+                    </ul>
+                </div>
 
-                <ul class="flex gap-10">
-                    <li class="filter invert"><img src="assets/asset 32.svg" alt=""></li>
-                    <li><img src="assets/asset 31.svg" alt=""></li>
-                    <li class="filter invert"><img src="assets/asset 32.svg" alt=""></li>
-                    <li><img src="assets/asset 31.svg" alt=""></li>
-                </ul>
             </div>
         </sub-footer>
     </main>
