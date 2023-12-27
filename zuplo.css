@@ -64,9 +64,10 @@ body {
 }
 
 @media (max-width: 640px) {
-  .grid {
-    grid-template-columns: 1fr;
-    padding-inline: 3%;
+  .gg {
+    /* grid-template-columns: 1fr;
+    padding-inline: 3%; */
+    display: none;
   }
 }
 
