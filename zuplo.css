@@ -75,11 +75,18 @@ body {
     .edit {
       grid-template-columns: repeat(2, 1fr); /* 2 columns for screens between 991px and 768px */
     }
+
+    .round{
+        font-size: 8px;
+    }
   }
   
   @media (max-width: 768px) {
     .edit {
       grid-template-columns: 1fr;
+    }
+    .round{
+        font-size: 6px;
     }
   }
 
@@ -93,4 +100,20 @@ body {
         display: flex !important;
     }
 }
+
+@media (max-width: 991px) {
+    .txt {
+        flex-direction: column; /* Center text for smaller screens */
+    }
+  
+    .bbn {
+      flex-direction: row; /* Align the list items vertically */
+      align-items: center; /* Center the items horizontally */
+    }
+  
+    .bbn li {
+      margin-bottom: 10px; /* Add spacing between list items */
+    }
+  }
+  
 
