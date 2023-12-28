@@ -39,11 +39,11 @@ body {
 
 .pipe-3 img {
     position: absolute;
-    top: -200px;
+    top: -100px;
     left: -280px;
     right: 0px;
-    bottom: 20px;
-    width: 40%; /* You can adjust the percentage or use a specific value */
+    bottom: 0px;
+    width: 30%; /* You can adjust the percentage or use a specific value */
 }
 
 .color{
@@ -161,3 +161,63 @@ body {
     /* .dir ul {
       margin-right: 20px; /* Add spacing between .dir ul elements */
   }
+
+  /* Default styling for both sections */
+.s1{
+  display: block;
+}
+
+.s2{
+  display: none;
+}
+
+/* Media query for screens between 1024px and 768px */
+@media (max-width: 1024px) {
+  .s1 {
+    display: none;
+  }
+  .s2 {
+    display: block;
+  }
+}
+
+/* Media query for screens between 767px and 500px */
+@media (max-width: 767px) {
+  .s2 {
+    display: none;
+  }
+  .s1 {
+    display: block;
+  }
+}
+
+/* Media query for screens between 499px and 0px */
+@media (max-width: 499px) {
+  .s2 {
+    display: block;
+  }
+  .s1 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hd {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hiddd {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .it {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
